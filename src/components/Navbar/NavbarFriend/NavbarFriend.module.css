@@ -1,0 +1,16 @@
+.friends__item {
+	width: 85px;
+	font-size: 17px;
+	margin: 0px 0px 20px 0px;
+}
+.friends__avatar {
+	width: 50px;
+	height: 50px;
+	margin: 0px auto 10px;
+}
+.friends__avatar img {
+	height: 100%;
+	width: 100%;
+	border-radius: 25px;
+	border: 2px solid #fff;
+}

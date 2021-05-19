@@ -1,0 +1,12 @@
+.message {
+	margin: 0px 0px 20px 0px;
+}
+.message p {
+	border-radius: 25px;
+	padding: 5px 10px;
+	background-color: black;
+	display: inline;
+}
+.message:nth-child(odd) {
+	text-align: right;
+}

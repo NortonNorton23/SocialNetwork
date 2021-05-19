@@ -1,0 +1,45 @@
+.wall__title {
+	margin: 0px 0px 0px 10px;
+}
+.input {
+	margin: 30px 0px 30px 0px;
+}
+.input input {
+	border: 2px solid #fff;
+	width: 85%;
+	height: 50px;
+	margin: 0px 20px 0px 0px;
+	border-radius: 25px;
+	padding: 0 20px;
+	font-size: 20px;
+	background: rgb(131, 201, 224);
+	color: #fff;
+	text-shadow: 0 0 1px #000;
+}
+.input input:focus {
+	box-shadow: 0 0 20px #fff;
+	outline: none;
+}
+.input input::placeholder {
+	color: #fff;
+}
+.input button {
+	height: 50px;
+	border-radius: 25px;
+	font-size: 20px;
+	padding: 5px 10px;
+	background: rgb(131, 201, 224);
+	border: 2px solid #fff;
+	text-shadow: 0 0 1px #000;
+	color: #fff;
+	cursor: pointer;
+}
+.input button:hover {
+	box-shadow: 0 0 20px #fff;
+}
+.input button:active {
+	outline: none;
+	background: black;
+	color: #fff;
+	text-shadow: 0 0 1px #000;
+}

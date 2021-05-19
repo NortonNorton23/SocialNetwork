@@ -1,0 +1,94 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+}
+.title {
+	text-align: center;
+}
+.item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgb(131, 201, 224);
+	border: 2px solid #fff;
+	border-radius: 25px;
+	margin: 20px;
+	padding: 10px;
+}
+.avatar {
+	width: 100px;
+}
+.avatar img {
+	width: 100%;
+	border-radius: 25px;
+	border: 2px solid black;
+}
+.item a {
+	text-decoration: none;
+	color: #fff;
+}
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 700px;
+}
+.name {
+	text-align: center;
+	width: 200px;
+}
+.status {
+	text-align: center;
+	width: 200px;
+}
+.location {
+	width: 100px;
+}
+.button {
+	width: 100px;
+}
+.button button {
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	font-size: 20px;
+	padding: 5px 10px;
+	background: #000;
+	border: 2px solid #fff;
+	text-shadow: 0 0 1px #000;
+	color: #fff;
+	cursor: pointer;
+}
+.button button:hover {
+	box-shadow: 0 0 20px #fff;
+}
+.button button:active {
+	outline: none;
+	background: rgb(131, 201, 224);
+	color: #fff;
+	text-shadow: 0 0 1px #000;
+}
+.button button:disabled {
+	filter: blur(1.5px);
+}
+.pages {
+	padding: 20px;
+	text-align: center;
+}
+.page {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 25px;
+}
+.page:hover {
+	cursor: pointer;
+	background: rgb(131, 201, 224, 0.5);
+}
+.selected {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 25px;
+	background: rgb(131, 201, 224);
+}

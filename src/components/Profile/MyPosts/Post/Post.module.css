@@ -1,0 +1,37 @@
+.post {
+	background: rgb(131, 201, 224);
+	margin: 0px 0px 20px 0px;
+	padding: 0 0 20px 0;
+	border-radius: 25px;
+	border: 2px solid #fff;
+	align-items: center;
+}
+.post__avatar {
+	width: 50px;
+	height: 50px;
+}
+.post__avatar img {
+	height: 100%;
+	width: 100%;
+	border-radius: 25px;
+	border: 2px solid black;
+}
+.post__header {
+	border-radius: 23px;
+	padding: 10px;
+	border: 1px solid #fff;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 0px 20px 0px;
+}
+.post__name h4 {
+	margin: 0;
+}
+.post__date {
+	font-size: 15px;
+}
+.post__content {
+	display: block;
+	text-align: center;
+}
